@@ -1,5 +1,4 @@
 import PaymentBaseComponent from './src/components/PaymentBaseComponent';
-import IdealComponent from './src/components/IdealComponent';
 import AfterPayComponent from './src/components/AfterPayComponent';
 import In3Component from './src/components/In3Component';
 import PayAfterDeliveryComponent from './src/components/PayAfterDeliveryComponent';
@@ -10,7 +9,7 @@ import CreditCardComponent from './src/components/CreditCardComponent';
 
 export default {
   multisafepay: PaymentBaseComponent,
-  multisafepay_ideal: IdealComponent,
+  multisafepay_ideal: PaymentBaseComponent,
   multisafepay_afterpay: AfterPayComponent,
   multisafepay_alipay: PaymentBaseComponent,
   multisafepay_amex: PaymentBaseComponent,
