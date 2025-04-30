@@ -11,7 +11,6 @@ export default {
   multisafepay: PaymentBaseComponent,
   multisafepay_ideal: PaymentBaseComponent,
   multisafepay_afterpay: AfterPayComponent,
-  multisafepay_alipay: PaymentBaseComponent,
   multisafepay_amex: PaymentBaseComponent,
   multisafepay_applepay: PaymentBaseComponent,
   multisafepay_bancontact: PaymentBaseComponent,
